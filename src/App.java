@@ -27,7 +27,7 @@ public class App {
 	
 
 	public static double formatImc(double imc) {
-		BigDecimal form = new BigDecimal(imc).setScale(2, RoundingMode.FLOOR);	
+		BigDecimal form = new BigDecimal(imc).setScale(3, RoundingMode.FLOOR);	
 		String f = form.toString();
 		double  imcF = Double.parseDouble(f);
 		return imcF;  
