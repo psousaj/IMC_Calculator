@@ -37,7 +37,6 @@ public class App {
 		
 		double altura = MyIO.readDouble("Informe sua altura");
 		double peso = MyIO.readDouble("Informe seu peso");
-		
 		double imc = peso / Math.pow(altura, 2);
 				
 		situation(imc);
